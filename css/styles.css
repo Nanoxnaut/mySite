@@ -1,0 +1,201 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+hr {
+	border-style: dotted none none none;
+	border-width: .25rem;
+	min-width: 20%;
+	max-width: 40%;
+	color: #A8DADC;
+}
+
+img {
+	max-width: 100%;
+}
+
+.top-container {
+  background-color: #457B9D;
+  color: #F1FAEE;
+  padding: 10rem 0 0 0;
+  
+}
+
+
+.middle-container {
+	background-color: #F1FAEE;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: 5rem 10rem 5rem 10rem;
+	text-align: left;
+	gap: 1.25rem;
+	align-items: center;
+}
+
+.bottom-container {
+	background-color: #1D3557;
+	margin: 0;
+	padding: 1rem 1rem 2rem 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1.5rem;
+	width: min(90% 70rem);
+}
+
+.sub-top-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+
+.mountain {
+	max-width: 100%;
+	width: 64rem;
+}
+
+.myName {
+  font-family: 'Smooch', cursive;
+  font-weight: normal;
+  font-size: 5rem;
+  margin: 0;
+}
+
+.myTitle {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.computerImage {
+	width: 60%;
+}
+
+.fishImage {
+	width: 60%;
+}
+
+.link {
+	color: #F1FAEE;
+	font-family: 'Outfit', sans-serif;
+	font-size: 1rem;
+	text-decoration: none;
+}
+
+.link:hover {
+	color: #B3BAB1;
+}
+
+.contactBtn {
+	background-color: #E63946;
+	border-radius: .3125rem;
+	padding: 1rem;
+	1width: 8%;
+}
+
+.contactBtn:hover {
+	background-color: #A62934;
+}
+
+.socials {
+	display: flex;
+	gap: 2rem;
+}
+
+.copyright {
+	color: #F1FAEE;
+	font-family: 'Outfit', sans-serif;
+	font-size: 1rem;
+	margin: 0;
+}
+
+.profile {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto 0 auto;
+	align-items: center;
+	width: 40%;
+	text-align: center;
+}
+
+.profilePic {
+	background-color: #A8DADC;
+	border-radius: 100%;
+	padding: .3125rem;
+}
+
+.profileDes {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.mySkillsHeader {
+	display: flex;
+	justify-content: center;
+}
+
+.computerRow {
+	display: flex;
+	align-items: center;
+	margin: 0 auto 0 auto;
+	width: 70%;
+	gap: 1.875rem;
+}
+
+.fishRow {
+	display: flex;
+	align-items: center;
+	margin: 0 auto 0 auto;
+	width: 70%;
+	gap: 1.875rem;
+}
+
+.skills {
+	width: 80%;
+}
+
+.img-container {
+	text-align: center;
+}
+
+.middleHeaders {
+	color: #383B38;
+	font-family: 'Outfit', sans-serif;
+  	font-size: 2rem;
+}
+
+.middleText {
+	color: #383B38;
+	font-family: 'Martel', serif;
+}
+
+@media only screen and (max-width: 1400px) {
+	.computerRow, .fishRow, .profile {
+	  width: 80%;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.computerRow, .fishRow, .profile {
+	  flex-direction: column;
+	  text-align: center;
+	  width: 100%;
+	}
+}
+
+@media only screen and (max-width: 1400px) {
+	.middle-container, .bottom-container {
+	  padding: 1rem;
+	  padding-top: 2rem;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.computerImage, .fishImage, .profilePic {
+	  width: 60%;
+	}
+}
